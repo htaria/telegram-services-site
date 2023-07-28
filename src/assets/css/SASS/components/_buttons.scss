@@ -1,0 +1,37 @@
+.btn-primary {
+    border-color: rgb(var(--my-color-1)) !important;
+    background-color: rgb(var(--my-color-1));
+    border-radius: 50rem;
+    transition: all .5s;
+
+    &:hover {
+        transform: scale(1.1);
+        border-color: rgb(var(--my-color-1)) !important;
+        background-color: rgb(var(--my-color-1));
+    }
+}
+
+.btn-rounded-primary {
+    background-color: $white;
+    border-radius: 50rem;
+    border: 0.3rem solid rgba($white, 0.6);
+    border-color: rgb(var(--my-color-1)) !important;
+
+    &:hover {
+        background-color: rgb(var(--my-color-1));
+        color: #fff;
+        border: 0.3rem solid rgba($white, 0.8);
+    }
+}
+
+.btn-rounded-transparent {
+    background-color: $white;
+    border-radius: 50rem;
+    border: 0.2rem solid rgba($white, 0.6);
+
+    &:hover {
+        background-color: transparent;
+        color: #fff;
+        border: 0.2rem solid rgba($white, 0.8);
+    }
+}
