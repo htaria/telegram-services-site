@@ -92,4 +92,4 @@ gulp.task('watch',async function() {
 
 //-------------
 // gulp.task('default',gulp.parallel('msg','copy-html','minify-image','compress-js','compile-my-sass','compile-my-sass-min','compile-bootstrap','compile-bootstrap-min','compile-Plugins-js','compile-Plugins-css','watch'));
-gulp.task('default',gulp.parallel('msg','watch'));
+gulp.task('default',gulp.parallel('msg','watch','minify-image'));

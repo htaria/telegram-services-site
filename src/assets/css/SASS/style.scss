@@ -27,7 +27,7 @@ $white :#f3f8ff;
   --my-color-1: #{$my-primary};
   --my-color-2: #{$my-secondary};
 }
-   
+
 // Create your own map
 @import "../bootstrap/scss/_functions.scss";
 @import "../bootstrap/scss/_variables.scss";
@@ -43,3 +43,4 @@ $white :#f3f8ff;
 @import "./navbar";
 @import "./intro";
 @import "./footer";
+@import "./options";
