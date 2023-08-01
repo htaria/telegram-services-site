@@ -10,7 +10,7 @@ $(window).on('scroll', function () {
     });
   }
 });
-
+ 
 
 jQuery(function () {
   $('#top').on('click', function (e) {
@@ -31,7 +31,7 @@ jQuery(function () {
     $(this).siblings().removeClass('active');
     $(this).addClass('active');
   });
-  $('.sites-btn').on('click', function (e) {
+  $('.bots-btn').on('click', function (e) {
     e.preventDefault();
     $('div.app').hide();
     $('div.poster').hide();
@@ -39,7 +39,7 @@ jQuery(function () {
     $(this).siblings().removeClass('active');
     $(this).addClass('active');
   });
-  $('.apps-btn').on('click', function (e) {
+  $('.logoes-btn').on('click', function (e) {
     e.preventDefault();
     $('div.site').hide();
     $('div.poster').hide();
@@ -47,7 +47,7 @@ jQuery(function () {
     $(this).siblings().removeClass('active');
     $(this).addClass('active');
   });
-  $('.posters-btn').on('click', function (e) {
+  $('.web-ap-bots-btn').on('click', function (e) {
     e.preventDefault();
     $('div.site').hide();
     $('div.app').hide();
