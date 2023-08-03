@@ -12125,3 +12125,28 @@ footer .footer-links hr {
   color: #f3f8ff;
   border-radius: 50rem;
 }
+
+.F-A-Q .accordion-item {
+  border-radius: 50px;
+}
+.F-A-Q .accordion-item .accordion-header .accordion-button {
+  border-radius: 50px;
+}
+.F-A-Q .accordion-item .accordion-header .accordion-button:focus {
+  outline: none;
+  border: 0;
+  box-shadow: none;
+}
+.F-A-Q .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+  background-color: #f3f8ff;
+  color: rgba(0, 0, 0, 0.9);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.F-A-Q .accordion-item .accordion-header .accordion-button::after {
+  margin-right: auto;
+  margin-left: 0;
+}
+.F-A-Q .accordion-item .accordion-collapse .accordion-body {
+  border-top: 1px solid #efefef !important;
+}

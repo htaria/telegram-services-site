@@ -1,0 +1,35 @@
+.F-A-Q {
+    .accordion-item {
+        border-radius: 50px;
+
+        .accordion-header {
+
+            .accordion-button {
+                border-radius: 50px;
+                &:focus {
+                    outline: none;
+                    border: 0;
+                    box-shadow: none;
+    
+                }
+                &:not(.collapsed){
+                    background-color: #f3f8ff;
+                    color:rgba(0,0,0,0.9);
+                    border-bottom-left-radius: 0;
+                    border-bottom-right-radius: 0;
+                }
+    
+                &::after {
+                    margin-right: auto;
+                    margin-left: 0;
+                }
+            }
+        }
+
+        .accordion-collapse{
+            .accordion-body{
+                border-top: 1px solid #efefef !important;
+            }
+        }
+    }
+}
