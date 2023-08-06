@@ -57,8 +57,15 @@ jQuery(function () {
   });
 });
 
-/* ====== iTyped ====== */
+/* ====== PureCounter ====== */
+new PureCounter({
+  selector: ".purecounter",
+  duration: 3,
+  separator: true,
+
+});
+/* ====== iTyped ====== */ 
 const titleElement = document.querySelector('#title')
 
 ityped.init(titleElement, { strings: ['با سرور های هتزنر آلمان', 'پشتیبانی 24 ساعته', 'در هفت روز هفته','با ما کیفیت','امنیت','و سرعت را تجربه کنید'] });
-
+ 

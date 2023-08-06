@@ -20,7 +20,7 @@ Team : https://hectortm.ir | @HectorTM
 // رنگ های پیشفرض
 $my-primary: 32, 143, 206;
 $my-secondary: 32, 117, 206;
-$bg-them : #efefef;
+$bg-them : #f8fcff;
 $white :#f3f8ff;
 // متغیر های css رنگ قالب
 :root {
@@ -46,5 +46,7 @@ $white :#f3f8ff;
 @import "./options";
 @import "./services"; 
 @import "./F-A-Q";    
+@import "./about-us";    
+
 
  
