@@ -64,6 +64,32 @@ new PureCounter({
   separator: true,
 
 });
+
+/* ====== Owl carousel ====== */
+
+$('#owl-carousel-1').owlCarousel({
+  rtl: true,
+  loop:true,
+  margin:10,
+  merge:true,
+  responsive: {
+    0: {
+      items: 2,
+    },
+    720: {
+      items: 3,
+        },
+
+    940: {
+      items: 4,
+    },
+
+    1320: {
+      items: 5,
+    },
+  }
+});
+
 /* ====== iTyped ====== */ 
 const titleElement = document.querySelector('#title')
 
