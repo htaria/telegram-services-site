@@ -12181,3 +12181,30 @@ footer .footer-links hr {
   display: block;
   margin-bottom: 2.5rem;
 }
+
+.comments .comment-box {
+  background-color: #FFFFFF;
+  border-radius: 10px 10px 10px 10px;
+  padding: 35px 35px 35px 35px;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.comments .comment-box img {
+  width: 75px;
+  height: 75px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.13);
+}
+.comments .comment-box .bi-quote {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: rgb(var(--my-color-2));
+}
+.comments .comment-box .start .bi-star-fill,
+.comments .comment-box .start .bi-star-half {
+  display: inline-block;
+  color: rgb(var(--my-color-2));
+  transform: scaleX(-1);
+}

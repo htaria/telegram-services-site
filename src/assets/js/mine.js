@@ -114,6 +114,30 @@ $('#owl-carousel-2').owlCarousel({
   }
 });
 
+$('#owl-carousel-3').owlCarousel({
+  rtl: true,
+  loop:true,
+  margin:10,
+  merge:true,
+  responsive: {
+    0: {
+      items: 1,
+    },
+    720: {
+      items: 2,
+        },
+
+    940: {
+      items: 3,
+    },
+
+    1320: {
+      items: 4,
+    },
+  }
+});
+
+
 
 /* ====== iTyped ====== */ 
 const titleElement = document.querySelector('#title')
