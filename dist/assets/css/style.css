@@ -12167,9 +12167,17 @@ footer .footer-links hr {
 }
 
 .our-bots .row {
-  margin-top: -3rem;
+  margin-top: -2.5rem;
 }
 .our-bots .row .our-bots-img {
+  display: block;
+  margin-bottom: 2.5rem;
+}
+
+.last-project .row {
+  margin-top: -2.5rem;
+}
+.last-project .row .last-project-img {
   display: block;
   margin-bottom: 2.5rem;
 }
