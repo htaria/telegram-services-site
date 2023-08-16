@@ -12060,24 +12060,6 @@ a {
   background: linear-gradient(200deg, rgb(var(--my-color-1)) 0%, rgb(var(--my-color-2)) 100%);
 }
 
-footer * {
-  color: rgba(243, 248, 255, 0.7);
-}
-footer .footer-icon {
-  color: rgb(var(--my-color-1));
-}
-footer p {
-  font-size: 15px;
-}
-footer .social-links, footer .copy-right-info {
-  background-color: #212121;
-}
-footer .footer-links hr {
-  width: 80px;
-  border-top-width: 4px;
-  height: 4px;
-}
-
 .options {
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
 }
@@ -12207,4 +12189,41 @@ footer .footer-links hr {
   display: inline-block;
   color: rgb(var(--my-color-2));
   transform: scaleX(-1);
+}
+
+footer .footer-section h4, footer .footer-section .h4 {
+  color: rgb(var(--my-color-2));
+}
+footer .footer-section ul li {
+  padding-top: 0.5rem;
+}
+footer .footer-section ul li span i {
+  color: rgb(var(--my-color-2));
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 20px;
+}
+footer .footer-section ul li span a {
+  color: #636262;
+  padding-right: 12px;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+footer .footer-section ul li span a:hover {
+  color: rgb(var(--my-color-2));
+}
+footer .footer-section .call-box {
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #4361ee;
+  box-shadow: 0 7px 30px rgba(67, 97, 238, 0.4392156863);
+  background-image: linear-gradient(120deg, #03b8ff, #4361ee);
+}
+footer .footer-section .call-box i {
+  color: #f3f8ff;
+  font-size: 40px;
+  font-weight: 100;
 }

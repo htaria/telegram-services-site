@@ -1,25 +1,52 @@
 footer {
-    * {
-        color: rgba($white, 0.7);
-    }
 
-    .footer-icon{
-        color: rgb(var(--my-color-1));
-    }
+    .footer-section {
+        h4 {
+            color: rgb(var(--my-color-2));
+        }
 
-    p {
-        font-size: 15px;
-    }
+        ul {
+            li {
+                padding-top: .5rem;
 
-    .social-links,.copy-right-info {
-        background-color: #212121;
-    }
+                span {
+                    i {
+                        color: rgb(var(--my-color-2));
+                        font-family: "Font Awesome 5 Free";
+                        font-weight: 900;
+                        font-size: 20px;
+                    }
 
-    .footer-links {
-        hr {
-            width: 80px;
-            border-top-width: 4px;
-            height: 4px;
+                    a {
+                        color: #636262;
+                        padding-right: 12px;
+                        font-weight: bold;
+                        transition: all .5s;
+
+                        &:hover {
+                            color: rgb(var(--my-color-2));
+                        }
+                    }
+                }
+            }
+        }
+
+        .call-box{
+            border-radius: 20px;
+            text-align: center;
+            padding: 20px 0;
+            display: flex;
+            flex-direction: column;
+            background-color: #4361ee;
+            box-shadow: 0 7px 30px #4361ee70;
+            background-image: linear-gradient( 120deg ,#03b8ff,#4361ee);
+            // @include gradient;
+
+            i{
+                color: $white;
+                font-size: 40px;
+                font-weight: 100;
+            }
         }
     }
 }
