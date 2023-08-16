@@ -11991,7 +11991,10 @@ a {
 
 .top-btn #top {
   position: fixed;
-  background-color: rgb(var(--my-color-1));
+  background-color: #4361ee;
+  box-shadow: 0 7px 30px rgba(67, 97, 238, 0.4392156863);
+  background-image: linear-gradient(120deg, #03b8ff, #4361ee);
+  background: -webkit-linear-gradient(120deg, #03b8ff, #4361ee);
   bottom: 2rem;
   width: 3rem;
   height: 3rem;
@@ -12049,6 +12052,63 @@ a {
   border-radius: 10px;
 }
 
+.call-box {
+  /* overflow: hidden; */
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+.call-box .links {
+  position: relative;
+}
+.call-box .links .icon-box {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #4361ee;
+  box-shadow: 0 7px 30px rgba(67, 97, 238, 0.4392156863);
+  background-image: linear-gradient(120deg, #03b8ff, #4361ee);
+  background: -webkit-linear-gradient(120deg, #03b8ff, #4361ee);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 2;
+  transition: all 0.5s;
+}
+.call-box .links .icon-box i {
+  display: block;
+  font-size: 28px;
+  color: #f3f4f7;
+}
+.call-box .links .commenting {
+  z-index: 3;
+}
+.call-box .links .call-icons-show.phone {
+  left: 90px;
+}
+.call-box .links .call-icons-show.paper-plane {
+  left: 160px;
+}
+.call-box .links .call-icons-show.robot {
+  left: 230px;
+}
+
+.call-icon-animation {
+  animation: commenting-btn 1s;
+}
+
+@keyframes commenting-btn {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .menu {
   box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.05);
   background-color: #fcfcfc;
@@ -12212,7 +12272,7 @@ footer .footer-section ul li span a {
 footer .footer-section ul li span a:hover {
   color: rgb(var(--my-color-2));
 }
-footer .footer-section .call-box {
+footer .footer-section .social-box {
   border-radius: 20px;
   text-align: center;
   padding: 20px 0;
@@ -12221,8 +12281,9 @@ footer .footer-section .call-box {
   background-color: #4361ee;
   box-shadow: 0 7px 30px rgba(67, 97, 238, 0.4392156863);
   background-image: linear-gradient(120deg, #03b8ff, #4361ee);
+  background: -webkit-linear-gradient(120deg, #03b8ff, #4361ee);
 }
-footer .footer-section .call-box i {
+footer .footer-section .social-box i {
   color: #f3f8ff;
   font-size: 40px;
   font-weight: 100;

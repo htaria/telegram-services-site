@@ -137,8 +137,25 @@ $('#owl-carousel-3').owlCarousel({
   }
 });
 
+/* ====== call box ====== */ 
+$('.commenting').on('click',function(e){
+  e.preventDefault();
+  var animationEvent = 'webkitAnimationEnd oanimationend msAnimationEnd animationend';
+  $(this).addClass('call-icon-animation');
+  $(this).one(animationEvent, function(e) {
+      $(this).removeClass('call-icon-animation')
+    });
+  $('.call-box').find('div').toggleClass('call-icons-show');
+  $(this).find('i').toggleClass('fa-commenting');
+  $(this).find('i').toggleClass('fa-xmark');
+});
 
-
+/* ====== Bootstrap popover ====== */
+const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl));
+const popover = new bootstrap.Popover('.popover-dismiss', {
+    trigger: 'focus'
+});
 /* ====== iTyped ====== */ 
 const titleElement = document.querySelector('#title')
 

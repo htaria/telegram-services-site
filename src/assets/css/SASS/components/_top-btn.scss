@@ -1,7 +1,8 @@
 .top-btn {
     #top {
         position: fixed;
-        background-color: rgb(var(--my-color-2));
+        // background-color: rgb(var(--my-color-2));
+        @include btngradient;
         bottom: 2rem;
         width: 3rem;
         height: 3rem;

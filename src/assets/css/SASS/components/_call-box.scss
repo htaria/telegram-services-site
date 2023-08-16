@@ -1,0 +1,67 @@
+.call-box {
+    /* overflow: hidden; */
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+
+    .links {
+        position: relative;
+
+
+        .icon-box {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            @include btngradient;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            z-index: 2;
+            transition: all .5s;
+
+            i {
+                display: block;
+                font-size: 28px;
+                color: #f3f4f7;
+            }
+
+
+        }
+
+        .commenting {
+            z-index: 3;
+        }
+
+        .call-icons-show.phone {
+            left: 90px;
+        }
+        
+        .call-icons-show.paper-plane {
+            left: 160px;
+        }
+        
+        .call-icons-show.robot {
+            left: 230px;
+        }        
+
+    }
+}
+
+
+.call-icon-animation {
+    animation: commenting-btn 1s;
+}
+
+@keyframes commenting-btn {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
