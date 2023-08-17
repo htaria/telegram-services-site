@@ -1,8 +1,8 @@
-.services{
+.services {
     @include gradient;
     margin-top: 6rem;
 
-    .services-box{
+    .services-box {
         background-color: $white;
         position: relative;
 
@@ -14,22 +14,22 @@
         .price {
             width: 80%;
             background-color: rgb(var(--my-color-2));
-            position:absolute;
-            color:$white;
-            left:0;
+            position: absolute;
+            color: $white;
+            left: 0;
             border-radius: 0 40px 40px 0;
 
             div {
-                margin-right : 4rem;
+                margin-right: 4rem;
             }
         }
 
-        ul{
-            margin-top : 7rem;
+        ul {
+            margin-top: 7rem;
             padding-left: 0;
 
-            li{
-                &::before{
+            li {
+                &::before {
                     content: '';
                     display: inline-block;
                     width: 10px;
@@ -41,12 +41,18 @@
             }
         }
 
-        a{
+        a {
             display: inline-block;
             width: 100%;
             background-color: rgb(var(--my-color-2));
             color: $white;
             border-radius: 50rem;
+            border: 2px solid rgb(var(--my-color-2));
+
+            &:hover {
+                background-color: transparent;
+                color: #292929 !important;
+            }
         }
     }
 }

@@ -20,43 +20,6 @@ jQuery(function () {
     }, 10);
   });
 });
-
-/* ====== Works Tab ====== */
-jQuery(function () {
-  $('.all-btn').on('click', function (e) {
-    e.preventDefault();
-    $('div.site').show();
-    $('div.app').show();
-    $('div.poster').show();
-    $(this).siblings().removeClass('active');
-    $(this).addClass('active');
-  });
-  $('.bots-btn').on('click', function (e) {
-    e.preventDefault();
-    $('div.app').hide();
-    $('div.poster').hide();
-    $('div.site').show();
-    $(this).siblings().removeClass('active');
-    $(this).addClass('active');
-  });
-  $('.logoes-btn').on('click', function (e) {
-    e.preventDefault();
-    $('div.site').hide();
-    $('div.poster').hide();
-    $('div.app').show();
-    $(this).siblings().removeClass('active');
-    $(this).addClass('active');
-  });
-  $('.web-ap-bots-btn').on('click', function (e) {
-    e.preventDefault();
-    $('div.site').hide();
-    $('div.app').hide();
-    $('div.poster').show();
-    $(this).siblings().removeClass('active');
-    $(this).addClass('active');
-  });
-});
-
 /* ====== PureCounter ====== */
 new PureCounter({
   selector: ".purecounter",
@@ -89,7 +52,6 @@ $('#owl-carousel-1').owlCarousel({
     },
   }
 });
-
 
 $('#owl-carousel-2').owlCarousel({
   rtl: true,
@@ -156,8 +118,3 @@ const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstra
 const popover = new bootstrap.Popover('.popover-dismiss', {
     trigger: 'focus'
 });
-/* ====== iTyped ====== */ 
-const titleElement = document.querySelector('#title')
-
-ityped.init(titleElement, { strings: ['با سرور های هتزنر آلمان', 'پشتیبانی 24 ساعته', 'در هفت روز هفته','با ما کیفیت','امنیت','و سرعت را تجربه کنید'] });
- 

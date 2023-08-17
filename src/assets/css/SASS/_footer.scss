@@ -31,14 +31,15 @@ footer {
             }
         }
 
-        .social-box{
+        .social-box {
             border-radius: 20px;
             text-align: center;
             padding: 20px 0;
             display: flex;
             flex-direction: column;
             @include btngradient;
-            i{
+
+            i {
                 color: $white;
                 font-size: 40px;
                 font-weight: 100;
