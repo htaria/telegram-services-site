@@ -1,0 +1,20 @@
+.card {
+  background-color: #fff;
+  border-radius: 20px;
+}
+.card img {
+  border-radius: 20px;
+  height: auto;
+  display: block;
+  padding: 10px;
+}
+
+.pagination .page-link {
+  background-color: #ffffff;
+}
+.pagination .page-link:focus {
+  box-shadow: none;
+}
+.pagination .page-item.active .page-link {
+  background-color: rgb(var(--my-color-2));
+}
