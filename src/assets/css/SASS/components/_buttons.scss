@@ -1,13 +1,14 @@
 .btn-primary {
-    border-color: rgb(var(--my-color-1)) !important;
-    background-color: rgb(var(--my-color-1));
+    border-color: rgb(var(--my-color-2)) !important;
+    background-color: rgb(var(--my-color-2));
     border-radius: 50rem;
     transition: all .5s;
-
+    color: $white;
     &:hover {
-        transform: scale(1.1);
-        border-color: rgb(var(--my-color-1)) !important;
-        background-color: rgb(var(--my-color-1));
+        // transform: scale(1.1);
+        border-color: rgb(var(--my-color-2)) !important;
+        background-color: $white;
+        color: rgb(var(--my-color-2));
     }
 }
 
