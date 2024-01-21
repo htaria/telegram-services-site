@@ -12387,7 +12387,7 @@ footer .footer-section .social-box i {
   transition: all 0.3s;
 }
 .blog-body .blog-card img {
-  height: 230px;
+  max-height: 230px;
 }
 .blog-body .blog-card h3, .blog-body .blog-card .h3 {
   font-weight: 400;
