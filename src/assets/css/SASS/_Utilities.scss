@@ -21,7 +21,7 @@ a {
   transition: all 0.5s;
 }
 
-.ltr{
+.ltr {
   direction: ltr;
 }
 
@@ -47,6 +47,44 @@ a {
   height: 40px;
   margin-top: .7rem;
 }
+
+
+.fs-7 {
+  font-size: 0.9rem;
+}
+
+.fs-8 {
+  font-size: 0.8rem;
+}
+
+.rounded-6 {
+  border-radius: 4rem;
+}
+
+.social-networks {
+  img {
+    width: 50px;
+    border-radius: 0;
+  }
+}
+
+input,
+textarea {
+  padding: 5px;
+  font-size: 15px;
+  border: 1px solid #dbe2e8;
+  background-color: #fff;
+  border-radius: 15px;
+  color: #3b4756;
+  box-shadow: 0 0 20px rgb(0 0 0 / 6%);
+  width: 100%;
+
+  &:focus-visible {
+    outline: none;
+    border-color: rgb(var(--my-color-1));
+  }
+}
+
 
 // .my-dropdown{
 //   background-color: #f4f5f7;

@@ -1,20 +1,30 @@
 .card {
     background-color: #fff;
     border-radius: 20px;
+    border-color: #f4f7fc;
+    box-shadow: 0 5px 25px rgb(0 0 0 / 7%);
+    .title {
+        font-weight: 700;
+        color: #031b4e;
+        border-bottom: 1px solid #f4f7fc;
+        padding: 5px 0;
+    }
 
     img {
         border-radius: 20px;
         height: auto;
         display: block;
         padding: 10px;
+        width: 100%;
     }
 }
 
 .pagination {
     .page-link {
         background-color: #ffffff;
-        &:focus{
-            box-shadow : none;
+
+        &:focus {
+            box-shadow: none;
         }
     }
 

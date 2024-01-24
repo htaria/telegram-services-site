@@ -43,7 +43,11 @@ $white :#f3f8ff;
 @import "./components/search-domine";
 @import "./components/owl";
 @import "./components/call-box";
-@import "./components/telino-breadcrumb.scss";
+@import "./components/telino-breadcrumb";
+@import "./components/scrollspy";
+@import "./components/author-box";
+@import "./components/comment-box";
+@import "./components/sidebar.scss";
 @import "./navbar";
 @import "./intro";
 @import "./options";
@@ -54,6 +58,7 @@ $white :#f3f8ff;
 @import "./last-project";
 @import "./comments";
 @import "./footer";
-@import "./blog";
+@import "./blog";  
+
 
   

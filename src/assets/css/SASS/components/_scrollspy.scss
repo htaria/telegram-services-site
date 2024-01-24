@@ -1,0 +1,33 @@
+.scrollspy {
+    background: #fff;
+    border: 1px solid #e7ecf0;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    padding: 30px;
+    display: grid;
+
+    a {
+        line-height: 2em;
+        font-size: 16px;
+        padding: 5px 16px 5px 20px;
+        display: block;
+        font-weight: 600;
+        color: #4b4b4b;
+        border-right: 4px solid transparent;
+
+        &:hover {
+            border-right-color: rgb(var(--my-color-1));
+        }
+    }
+
+    nav {
+        a {
+            padding-right: 0px;
+            border-bottom: 1px solid #efefef;
+
+            &:last-child {
+                border-bottom: none;
+            }
+        }
+    }
+}
