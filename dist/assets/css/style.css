@@ -12015,6 +12015,12 @@ textarea:focus-visible {
   border-color: rgb(var(--my-color-1));
 }
 
+#videoPlayer {
+  width: 100%;
+  border-radius: 20px;
+  height: 400px;
+}
+
 /* Header End*/
 /* webkit scrollbar */
 .btn-primary {
