@@ -10,7 +10,7 @@ $(window).on('scroll', function () {
     });
   }
 });
- 
+
 
 jQuery(function () {
   $('#top').on('click', function (e) {
@@ -32,16 +32,16 @@ new PureCounter({
 
 $('#owl-carousel-1').owlCarousel({
   rtl: true,
-  loop:true,
-  margin:10,
-  merge:true,
+  loop: true,
+  margin: 10,
+  merge: true,
   responsive: {
     0: {
       items: 2,
     },
     720: {
       items: 3,
-        },
+    },
 
     940: {
       items: 4,
@@ -55,16 +55,16 @@ $('#owl-carousel-1').owlCarousel({
 
 $('#owl-carousel-2').owlCarousel({
   rtl: true,
-  loop:true,
-  margin:10,
-  merge:true,
+  loop: true,
+  margin: 10,
+  merge: true,
   responsive: {
     0: {
       items: 2,
     },
     720: {
       items: 3,
-        },
+    },
 
     940: {
       items: 4,
@@ -78,16 +78,16 @@ $('#owl-carousel-2').owlCarousel({
 
 $('#owl-carousel-3').owlCarousel({
   rtl: true,
-  loop:true,
-  margin:10,
-  merge:true,
+  loop: true,
+  margin: 10,
+  merge: true,
   responsive: {
     0: {
       items: 1,
     },
     720: {
       items: 2,
-        },
+    },
 
     940: {
       items: 3,
@@ -99,14 +99,14 @@ $('#owl-carousel-3').owlCarousel({
   }
 });
 
-/* ====== call box ====== */ 
-$('.commenting').on('click',function(e){
+/* ====== call box ====== */
+$('.commenting').on('click', function (e) {
   e.preventDefault();
   var animationEvent = 'webkitAnimationEnd oanimationend msAnimationEnd animationend';
   $(this).addClass('call-icon-animation');
-  $(this).one(animationEvent, function(e) {
-      $(this).removeClass('call-icon-animation')
-    });
+  $(this).one(animationEvent, function (e) {
+    $(this).removeClass('call-icon-animation')
+  });
   $('.call-box').find('div').toggleClass('call-icons-show');
   $(this).find('i').toggleClass('fa-commenting');
   $(this).find('i').toggleClass('fa-xmark');
@@ -116,5 +116,5 @@ $('.commenting').on('click',function(e){
 const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
 const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl));
 const popover = new bootstrap.Popover('.popover-dismiss', {
-    trigger: 'focus'
+  trigger: 'focus'
 });
