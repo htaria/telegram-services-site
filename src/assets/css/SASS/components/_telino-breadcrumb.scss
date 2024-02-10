@@ -12,7 +12,8 @@
     white-space: nowrap;
     overflow-x: auto;
     overflow-y: clip;
-    p{
+
+    p {
 
         margin: 0;
         padding: 0;
@@ -20,6 +21,7 @@
         font-size: 19px;
         color: #181522;
         line-height: 2em;
+
         a {
             color: #181522;
             padding: 0 25px;
@@ -27,7 +29,8 @@
             line-height: 50px;
             font-size: 16px;
             position: relative;
-            &::after{
+
+            &::after {
                 content: "";
                 position: absolute;
                 top: 50%;
@@ -37,7 +40,8 @@
                 border-right: 1.1em solid;
                 left: -1em;
             }
-            &::before{
+
+            &::before {
                 content: "";
                 position: absolute;
                 top: 50%;
@@ -47,17 +51,20 @@
                 border-right: 1.1em solid;
                 left: -1em;
             }
+
             &::before {
                 border-right-color: #e7ecf0;
                 left: -1.1em;
                 z-index: 2;
             }
+
             &::after {
                 z-index: 2;
                 border-right-color: #fff;
             }
         }
-        .last{
+
+        .last {
             padding: 0 25px;
             line-height: 50px;
         }

@@ -1,12 +1,12 @@
 .card {
     background-color: #fff;
     border-radius: 20px;
-    border-color: #f4f7fc;
+    border-color: #{$border-color};
     box-shadow: 0 5px 25px rgb(0 0 0 / 7%);
     .title {
         font-weight: 700;
         color: #031b4e;
-        border-bottom: 1px solid #f4f7fc;
+        border-bottom: 1px solid #{$border-color};
         padding: 5px 0;
     }
 

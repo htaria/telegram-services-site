@@ -6,7 +6,6 @@
     color: $white;
 
     &:hover {
-        // transform: scale(1.1);
         border-color: rgb(var(--my-color-2)) !important;
         background-color: $white;
         color: rgb(var(--my-color-2));

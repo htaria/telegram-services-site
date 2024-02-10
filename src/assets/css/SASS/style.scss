@@ -22,6 +22,7 @@ $my-primary: 32, 143, 206;
 $my-secondary: 32, 117, 206;
 $bg-them : #f8fcff;
 $white :#f3f8ff;
+$border-color : #f4f7fc;
 // متغیر های css رنگ قالب
 :root {
   --my-color-1: #{$my-primary};
@@ -58,7 +59,7 @@ $white :#f3f8ff;
 @import "./last-project";
 @import "./comments";
 @import "./footer";
-@import "./blog";  
+@import "./blog";
 
 
   

@@ -1,7 +1,6 @@
 .top-btn {
     #top {
         position: fixed;
-        // background-color: rgb(var(--my-color-2));
         @include btngradient;
         bottom: 20px;
         width: 3.2rem;
@@ -13,6 +12,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+
         i {
             color: $white;
             font-size: 1rem;

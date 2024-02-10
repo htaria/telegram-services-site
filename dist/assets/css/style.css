@@ -123,7 +123,7 @@ Team : https://hectortm.ir | @HectorTM
   --bs-highlight-bg: #fff3cd;
   --bs-border-width: 1px;
   --bs-border-style: solid;
-  --bs-border-color: #dee2e6;
+  --bs-border-color: #f4f7fc;
   --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
   --bs-border-radius: 0.375rem;
   --bs-border-radius-sm: 0.25rem;
@@ -11964,7 +11964,6 @@ a {
   direction: ltr;
 }
 
-/* Header Start */
 .offcanvas {
   width: 300px !important;
 }
@@ -12021,8 +12020,6 @@ textarea:focus-visible {
   height: 400px;
 }
 
-/* Header End*/
-/* webkit scrollbar */
 .btn-primary {
   border-color: rgb(var(--my-color-2)) !important;
   background-color: rgb(var(--my-color-2));
@@ -12126,7 +12123,6 @@ textarea:focus-visible {
 }
 
 .call-box {
-  /* overflow: hidden; */
   position: absolute;
   bottom: 20px;
   left: 20px;
@@ -12510,7 +12506,6 @@ footer .footer-section .social-box i {
 }
 
 .blog-body .blog-card {
-  border-color: #f4f7fc;
   transition: all 0.3s;
 }
 .blog-body .blog-card img {

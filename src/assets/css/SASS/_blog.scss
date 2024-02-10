@@ -1,13 +1,7 @@
-// .blog-header{
-
-   
-// }
-
 .blog-body {
     .blog-card {
-           border-color: #f4f7fc;
-
         transition: all .3s;
+
         img {
             max-height: 230px;
         }
@@ -18,7 +12,8 @@
             display: block;
             line-height: 2em;
         }
-        &:hover{
+
+        &:hover {
             box-shadow: 0 0 20px rgb(0 0 0 / 6%);
         }
     }
