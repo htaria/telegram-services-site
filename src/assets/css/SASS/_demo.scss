@@ -1,0 +1,50 @@
+.pages {
+
+    .row {
+        @media (min-width: 540px) {
+            border-bottom: 3px dashed #ddd;
+        }
+
+        div {
+            position: relative;
+            overflow: hidden;
+
+            &::before {
+                border-left: 3px dashed #ddd;
+                @include beforeBorderRight();
+            }
+
+            &:nth-child(3) {
+                &::before {
+                    border-left: none;
+                }
+            }
+
+            &:last-child {
+                &::before {
+                    border-left: none
+                }
+            }
+
+            a {
+                box-shadow: 0 22px 70px rgba(0, 0, 0, .13);
+
+                h4 {
+                    color: #212529;
+                    transition: color .5s;
+                }
+
+                &:hover {
+                    h4 {
+                        color: rgb(var(--my-color-2));
+                    }
+                }
+            }
+        }
+    }
+
+    .last-row {
+        border-bottom: none;
+    }
+
+}
